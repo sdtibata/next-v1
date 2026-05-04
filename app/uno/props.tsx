@@ -1,4 +1,4 @@
-export default function Props({ nombre }) {
+export default function Props({ nombre }: { nombre: string }) {
   return (
     <div>
         {nombre}
